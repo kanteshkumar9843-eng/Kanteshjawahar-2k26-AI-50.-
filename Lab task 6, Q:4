@@ -1,0 +1,15 @@
+Question No:4
+
+words = ['apple', 'ant', 'banana', 'ball', 'cat']
+
+result = {}
+
+for word in words:
+    letter = word[0]
+
+    if letter in result:
+        result[letter].append(word)
+    else:
+        result[letter] = [word]
+
+print(result)
