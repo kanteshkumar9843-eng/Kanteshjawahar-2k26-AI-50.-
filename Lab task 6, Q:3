@@ -1,0 +1,11 @@
+Question No: 3
+
+data = {'a': 1, 'b': 2, 'c': 3}
+
+result = {}
+
+for key in data:
+    value = data[key]
+    result[value] = key
+
+print(result)
